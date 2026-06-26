@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<head>
+<script>
+    	function callData() {
+	const myarea = document.getElementById("mytextarea");	
+	let btn = document.getElementById("mybutton");
+	btn.addEventListener('click', () => {
+	let mynames = document.getElementsByName("myradio");
+	mynames.forEach((myradio) => {
+	if (myradio.checked) {
+	myarea.src = myradio.value;
+	myarea.value = myarea.src;
+	}
+      })
+   });
+ }
+</script>
+</head>
+<body>
+<h3 style="color: blue">Let's Go Twenty One Pilots</h3>
+<p><b>Disclaimer</b>&nbspWhat Twenty One Pilots write songs about is not necessarily appropriate for everyone to listen to. At least I'm able to recognize it in advance. That's why this second webpage is password-protected.</p>
+<p>Twenty One Pilots write songs about depression. And how to successfully handle it. That's why this playlist has several of their songs. They represent something that is worthwhile to move on from.</p>
+<p>88/8=11. 6 table categories x 8 tables per category x 11 values per table=528 individual data values.</p>
+<p>My playlist is organized alphabetically by song name. That makes it more interesting than monotonous.</p>
+<p>Finding what a song is about takes multiple steps. I look past what the lyrics are saying literally. To find the metaphorical meaning. Reading between the lines.</p>
+<p>A decibel is a numeric measurement of how loud or soft a sound is. The daily limit to protect hearing is 70 dB. The closer to zero the louder the sound. I leave my Car Radio volume below ten.</p>
+<button id="mybutton" onclick="callData()">Data</button><br>
+<table>
+<tr>
+<td>
+<p>
+	<input type="radio" name="myradio" 
+	value=
+       "A Car, a Torch, a Death 
+	Addict With A Pen
+	Air Catcher 
+	At The Risk Of Feeling Dumb 
+	Backslide 
+	Bandito 
+	Bounce Man 
+	Car Radio 
+	Center Mass 
+	Chlorine 
+	Choker">Names A-C</input><br>
+	<input type="radio" name="myradio" 
+	value=
+       "Christmas Saves The Year 
+	City Walls 
+	Cottonwood 
+	Cut My Lip
+	Days Lie Dormant
+	Doubt
+	Downstairs
+	Drum Show
+	Fairly Local
+	Fake You Out
+	Fall Away">Names C-F</input><br>
+	<input type="radio" name="myradio" 
+	value=
+       "Formidable
+	Friend, Please
+	Garbage
+	Goner
+	Good Day
+	Guns For Hands
+	Heathens
+	Heavydirtysoul
+	Holding On To You
+	Hometown
+	House of Gold">Names F-H</input><br>
+	<input type="radio" name="myradio" 
+	value=
+       "Johnny Boy
+	Jumpsuit
+	Lane Boy
+	Lavish
+	Leave the City
+	Legend
+	Level of Concern
+	Levitate
+	March To the Sea
+	Message Man
+	Midwest Indigo">Names J-M</input><br>
+	<input type="radio" name="myradio" 
+	value=
+       "Migraine
+	Morph
+	Mulberry Street
+	My Blood
+	Navigating
+	Neon Gravestones
+	Never Take It
+	Next Semester
+	Nico And The Niners
+	No Chances
+	Not Today">Names M-N</input><br>
+	<input type="radio" name="myradio" 
+	value=
+       "Ode To Sleep
+	Oh Ms Believer
+	Oldies Station
+	One Way
+	Overcompensate
+	Paladin Strait
+	Pet Cheetah
+	Polarize
+	Rawfear
+	Ride
+	Robot Voices">Names O-R</input><br>
+	<input type="radio" name="myradio" 
+	value=
+       "Routines In The Night
+	Saturday
+	Screen
+	Semi-Automatic
+	Shy Away
+	Smithereens
+	Snap Back
+	Stressed Out
+	Tally
+	Taxi Cab
+	Tear in My Heart">Names R-T</input><br>
+	<input type="radio" name="myradio" 
+	value=
+       "The Contract
+	The Craving (Jenna's version)
+	The Hype
+	The Judge
+	The Outside
+	The Pantaloon
+	The Run and Go
+	Trapdoor
+	Trees
+	Truce
+	We Don't Believe What's on TV">Names T-W</input><br>
+	<input type="radio" name="myradio" 
+	value=
+       "F Major
+	G Major
+	A Flat Major
+	B Minor
+	E Flat Major
+	B Minor again
+	E Minor
+	A Minor
+	F Major again
+	A Sharp Minor
+	G Major">Keys A-C</input><br>
+	<input type="radio" name="myradio" 
+	value=
+       "C Major
+	B Minor
+	A Major
+	E Major
+	C Major again
+	D Minor
+	C Sharp Major
+	C Sharp Major again
+	F Sharp Minor
+	F Sharp Major
+	F Major">Keys C-F</input><br>
+	<input type="radio" name="myradio" 
+	value=
+       "F Sharp Minor
+	G Minor
+	C Sharp Major
+	F Sharp Minor again
+	G Major
+	C Sharp Major again
+	E Minor
+	G Minor again
+	B Major
+	D Minor
+	C Major">Keys F-H</input><br>
+	<input type="radio" name="myradio" 
+	value=
+       "C Major
+	B Minor
+	G Major
+	E Major
+	E Minor
+	C Major again
+	E Minor again
+	F Sharp Minor
+	G Major again
+	D Minor
+	G Sharp Minor">Keys J-M</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "C Major
+	G Sharp Minor
+	D Major
+	C Sharp Major
+	B Minor
+	B Minor again
+	A Major
+	E Major
+	A Minor
+	G Major
+	D Major again">Keys M-N</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "G Major
+	C Major
+	A Major
+	B Major
+	F Minor
+	F Major
+	G Minor
+	F Sharp Minor
+	A Major again
+	F Sharp Major
+	C Major again">Keys O-R</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "G Major
+	A Flat Major
+	C Major
+	F Sharp Minor
+	A Minor
+	F Sharp Major
+	C Major again
+	E Minor
+	G Major
+	A Major again
+	D Major">Keys R-T</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "G Minor
+	G Major
+	A Major
+	C Major
+	B Major
+	A Major again
+	A Sharp Minor
+	C Sharp Minor
+	F Sharp Major
+	G Major again
+	A Major yet again">Keys T-W</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "140
+	140 again
+	110
+	168
+	85
+	127
+	142
+	130
+	108
+	90
+	142 again">Tempo A-C</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "82
+	94
+	151
+	112
+	88
+	123
+	110
+	164
+	115
+	115 again
+	120">Tempo C-F</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "137
+	110
+	99
+	96
+	142
+	130
+	90
+	130 again
+	90 again
+	120
+	115">Tempo F-H</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "115
+	127
+	160
+	100 even
+	135
+	86
+	122
+	93
+	125
+	120
+	116">Tempo J-M</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "174
+	90
+	170
+	109
+	166
+	149
+	118
+	175
+	140
+	140 again
+	115">Tempo M-N</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "150
+	73
+	101
+	96
+	95
+	119
+	110
+	165
+	110 again
+	75
+	164">Tempo O-R</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "113
+	113 again
+	150
+	105
+	97
+	151
+	140
+	170
+	142
+	138
+	120">Tempo R-T</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "135
+	160
+	87
+	83
+	101
+	100 even
+	92
+	150
+	140
+	120
+	120 again">Tempo T-W</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "It is a sad song. It is metaphorical.
+	It is another sad song. It uses a metaphor of a desert in his mind. It makes you think about water differently.
+	It is also a sad song about falling emotionally.
+	It's about not wanting to lose a friend, so instead checking to see if they're okay.
+	It's about not wanting to have a behavioral regression.
+	It's about going low emotionally without wanting to.
+	It's about feeling okay with having an avoidant personality.
+	The extended metaphor of the car radio is most likely telling the listener to think through their actions.
+	It's about having a method to deal with painful feelings.
+	If it's taken metaphorically, then it could be about songwriting itself.
+	It's about having an avoidant personality and side effects of it.">Context A-C</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "It's about how the ending of a year can sometimes be the best part of it.
+	It's about making decisions at first then second-guessing them afterwards.
+	It's about a sadness because someone else's behaviors are only worsening somehow.
+	It's a song about self-sabotage.
+	It's about not wanting to waste time.
+	It's describing depression but at least it sounds techno.
+	It's about finding space to recover from negative feelings or emotions.
+	It's about having coping techniques that don't work exactly like they're supposed to.
+	It's most likely about feeling confused because the lyrics say one thing then they say the exact opposite.
+	It's about feeling distanced from other people.
+	It's about falling emotionally without actually wanting to do so.">Context C-F</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "It's about someone who is intimidated by someone else.
+	It's about someone who doesn't want to lose someone else.
+	It's describing feeling extreme insecurities.
+	It's about intense feelings of loneliness.
+	It's about having a good day but others not believing you. Which is possible.
+	It's about transforming suicidal feelings into something positive instead. Or redirecting the energy.
+	It's about criminal history.
+	It's about wanting someone else's help without being sure how they can. Which is also possible.
+	It's about holding onto hope through difficult situations. It can sometimes be all someone has.
+	It's most likely about lacking a sense of belonging.
+	It's a very positive song about chasing dreams.">Context F-H</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "It's about trying to save someone else from their depression if possible.
+	The extended metaphor of the jumpsuit is most likely for depressive feelings.
+	It's a very fast but distressed song by TØP.
+	It's describing having an extravagant lifestyle without feeling satisfied by it.
+	It's about an intense sadness.
+	It's about someone who wants to see someone else again someday.
+	In the TØP concert I fortunately attended, Tyler Joseph said he wrote it about the Covid-19 pandemic.
+	It's creatively describing how to act more confident instead.
+	It's about cyclic depression.
+	It's about fighting against suicidal feelings.
+	It's describing a deeper sadness than what's happened before.">Context J-M</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "It's a faster song about fighting against suicidal feelings.
+	It's describing depression. In my opinion, the "ones and zeroes" part might reference binary thinking.
+	It's about taking a different perspective.
+	It's a rock song about loyalty.
+	It's describing possible side effects of having a disassociation.
+	It's about celebrating life instead of glorifying suicide.
+	It's about not believing what everyone else is saying just because they're saying it.
+	It's a very creative take on second chances.
+	The extended metaphor of the jumpsuit references depression again.
+	It's a positive song by TØP.
+	It's describing insecurities.">Context M-N</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "It's describing having intense feelings.
+	It's about someone who notices someone else's extreme sadness.
+	It's about making mistakes and only sometimes learning from them.
+	It's creatively describing negative surroundings leading to having negative feelings.
+	It's saying the same message in three languages. "This lonely island weaponized me."
+	It's about struggling against impossible odds.
+	It's metaphorical for having and identifying problems.
+	It's a faster song about the same concept.
+	It's a song about negative sources of motivation.
+	It's about falling emotionally another time.
+	It's about internal thoughts in your head that can change your actions.">Context O-R</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "It's about processing negative memories while trying not to sleep.
+	It's about feeling different on different days of the week. Which can actually happen.
+	The extended metaphor of the train is for struggling sometimes.
+	It's about impulsivity and unintended consequences.
+	It's about not wanting to have an avoidant personality.
+	It's about what someone is willing to sacrifice for someone else.
+	It's about reaching a breaking point.
+	It's about how to deal with stress successfully. It's positive again.
+	It's about keeping track of mistakes without actually learning from them.
+	The taxi cab extended metaphor is for thinking about death.
+	It's about how having negative emotions can remind you to appreciate the positive ones instead.">Context R-T</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "It's about feeling an intensity of emotions.
+	It's about having a sadness.
+	It's also about not believing what everyone else is saying just because they're saying it.
+	It's describing depression.
+	It's about feeling confident because you're on the outside.
+	It's an extended metaphor for unfortunate situations. And the effects those situations have.
+	It's also about wanting someone else's help without being sure how they can. Which is still possible.
+	It's a very sad song on the self-titled album by Twenty One Pilots.
+	The song itself is fast but the lyrics themselves are sad. That's why the song is interesting to me.
+	It's a very sad song on Vessel from January 8th, 2012.
+	It's slightly different in lyrics than "House of Gold" but similar in messaging.">Context T-W</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "As I start the car and then I begin. To add the miles piled up behind me. I barely feel a smile deep inside me.
+	But You specialize in dying, you hear me screaming "Father!". And I'm lying here just crying, so wash me with your water.
+	I fall straight down. You've stolen my air catcher. That kept me safe and sound. My parachutes will guide me safely to ground.
+	At the risk of feeling dumb, check in. It's not worth the risk of losing a friend.
+	I don't wanna backslide to where Ive started from.
+	I could take the high road. But I know that Im going low.
+	Yeah, I told you all along. Running away don't make you wrong.
+	And I will try with every rhyme to come across like I am dying. To let you know you need to try to think.
+	Shrink it down to nothing and forgetting what the pain's for.
+	'This beat is a chemical.' and 'The moment is medical.' and 'Felt I was invincible, you wrapped around my head.'
+	Someone else can carve it out out but when you've got the pin. It hurts a little less and you can even push it further in.">Lyrics A-C</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "With cheap décor and flavored cheer. You rest assured, Christmas saves the year.
+	I write a promise in pencil, but my loyalty's in pen. Use a mistake as a crooked stencil, then we trace it back again.
+	You tore me up more than you know.
+	Rust around the rim. Drink it anyway. I cut my lip. Isn't what I want. Blood is on my tongue. I cut my lip.
+	My days lie dormant. Cause I just cant afford it. To waste my time inside a place you're not.
+	Repeating simple phrases. Someone holy insisted. Want the mark he's made on my skin. To mean something to me again.
+	Downstairs, I feel better in the cellar. Down there, it's some shelter from the weather.
+	He'd rather feel something than nothing at all. So he swerves all around as his head starts to fall.
+	'I'm evil to the core. What I shouldn't do, I will.' and 'I'm not evil to the core. What I shouldn't do, I will fight.'
+	Before you walk away, theres one more thing I want to say. Our brains are sick but thats okay.
+	Im dying and Im trying. But believe me, Im fine. But Im lying. Im so very far from fine.">Lyrics C-F</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "Don't know what it was but somehow we played it out in reverse. I'm afraid of you now more than I was at first.
+	I know you want to leave but friend, please don't take your life away from me.
+	I feel like garbage. I feel like my systems are operating at twenty percent. Or less.
+	Though I'm weak and beaten down, I'll slip away into the sound. The ghost of you is close to me. I'm inside out. You're underneath.
+	'Low-key - I'm alright. Would you say you depend on the weather?' and 'I know it's hard to believe me. It's a good day.'
+	'That you all have guns. And you never put the safety on.' and 'Interested in putting my fingers to my head.'
+	You'll never know the psychopath sitting next to you. You'll never know the murderer sitting next to you.
+	Can you save? Can you save my? Can you save my heavy dirty soul?
+	You are surrounding all my surroundings. Twisting that kaleidoscope behind both of my eyes.
+	Where we're from, there's no sun. Our hometown's in the dark. Where we're from, we're no one. Our hometown's in the dark.
+	Oh, and since we know that dreams are dead. And life turns plans upon their head.">Lyrics F-H</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "Get up Johnny boy, get up Johnny boy. Get up cause the world has left you lying on the ground.
+	I can't believe now much I hate. Pressures of a new place roll my way. Jumpsuit, jumpsuit, cover me.
+	Regardless, all these songs Im hearing are so heartless. Don't trust a perfect person and don't trust a song thats flawless.
+	You're looking real nice, smelling like worth. Walk in like you deserve it.
+	The burning is so low its concerning. Cause they know that when it goes out, it's a glorious gone.
+	Then the day that it happened, I recorded this last bit. I look forward to having a lunch with you again.
+	Panic on the brain, world has gone insane. Things are starting to get heavy, mmm...Wondering would you be my little quarantine?
+	And though I feed on things that fell, you can learn to levitate with just a little help.
+	We're dying with every step we take. We're dying with every breath we make. And I'll fall in line.
+	Release me from the present, I'm obsessing, all these questions. Why I'm in denial that they tried the suicidal session.
+	It's a different blue, it's deeper than it's been. You make me sad and second-guess myself.">Lyrics J-M</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "They're trying to eat me, blood running down their chin. And I know that I can fight, or I can let the lion win.
+	Lights, they blink to me. Transmitting things to me. Ones and zeroes. Ergo this symphony. Anybody listening? Ones and zeroes.
+	'Keep your sunny das, leave us in the rain.' and 'You can have the weekends, we will live between them'.
+	When everyone you thought you knew deserts your fight, I'll go with you.
+	Pardon my delay. Im navigating, Im navigating my head. Disassociate. Im navigating, Im navigating my head.
+	Pay some respects for the path that they paved. To life they were dedicated. Now that should be celebrated.
+	Now that they know information is just a currency and nothing more. Keep the truth in quotations.
+	'Can you die of anxiousness?' and 'Can't change what you've done. Start fresh next semester.'
+	Im heavy. My jumpsuit is on steady. Im lighter when Im lower. Im higher when Im heavy, oh oh.
+	With my shoulders squared and my back straight. Got a good base and a loose tongue. Notorious in the octagon now.
+	Oh, don't you test me, no. Just because I play the piano doesn't mean I, I'm not willin' to take you down. Im sorry.">Lyrics M-N</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "I'll tell the moon, 'Take this weapon, forged in darkness. Some see a pen, I see a harpoon.'
+	Your shaking shoulders prove that its colder. Inside your head than the winter of dead.
+	Make an oath, then make mistakes. Start a streak you're bound to break. When darkness rolls on you, push on through.
+	'Me and my scene just ain't gelling. Mmm, someone next to me keeps yelling.' and 'Something must be wrong here. I just don't belong here.'
+	'Diese kleine unheimliche Insel hat mich zu einer Waffe gemacht.' and 'Cette petite ile étrange a fait de moi une arme.'
+	Cant be sure that I'll make it. Even though I'm past the point of no return.
+	No, I move slow. I wanna stop time. I'll sit here til I find the problem.
+	'Those stairs is where I'll be hiding all my problems.' and 'Domingo en fuego. I think I lost my halo.'
+	You know what kills me? Not getting stronger. And now I cant seem to sit still any longer.
+	'Yeah, I think about the end just way too much. But its fun to fantasize.' and 'Im fallin, so Im taking my time on my ride.'
+	When I met you, I found you safe and warm. And the robot voices would reassure me.">Lyrics O-R</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "While all the worlds asleep, I walk around instead. Through the memories, down the halls of my head.
+	Slow down on Monday. Not a sound on Wednesday. Might get loud on Friday. But on Saturday, Saturday. Saturday we paint the town.
+	Just like a vertical loco-motive, thats a train. Am I painting the picture thats in my brain? A train from the sky, locomotive my motives are insane.
+	Im never what I like, Im double-sided. And I just cant hide. I kinda like it when I make you cry. Cause Im twisted up. Im twisted up. Inside.
+	Don't circle the track. Just break the cycle in half.
+	For you, ld go. Step to a dude much bigger than me. For you, I know I would get messed up, weigh 153.
+	Is it even good for my head to keep track? If Im gonna snap necks, then I gotta snap back.
+	My names Blurryface and I care what you think. Wish we could turn back time. To the good old days. When our momma sang us to sleep.
+	'I lost my rank and title. I turned my back on it. Sold it all at a discount.' and 'You want a tally, I lost the count.'
+	Then there were three men up front, all I saw were backs of heads. And then I asked, 'Am I alive and well, or am I dreaming dead?'
+	Annyeonghaseyo. Sometimes you gotta bleed to know that you're alive and have a soul.">Lyrics R-T</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "Where I hide my face. pace around. Better try to breathe. pace around. pace around.
+	I don't know why I cant stop crying. I fear Im getting old. And I don't know a lot about you still.
+	Yeah, they might be talking behind your head. Your exterior world can step off instead.
+	Three lights are lit but the fourth one's out. I can tell cause it's a bit darker than the last nights bout.
+	I'm on the outside in the summer heat. You can pay the cover charge, I'm in the street. Little do they know that they cant touch me. Im vibin', vibin'.
+	'He's been around so long, he's changed his meaning of a chair, now.' and 'The end cant come soon enough but is it too soon?'
+	Don't wanna give you all my demons. You'll have to watch me struggle from several rooms away. But tonight, I'll need you to stay.
+	He thinks that faith might be dead. Nothing kills a man faster than his own head.
+	I can feel your breath. I can feel my death. I want to know you. I want to see. I want to say hello.
+	You will die, but now your life is free. Take pride in what is sure to die.
+	We don't believe whats on TV. Because it's what we want to see. And what we want, we know we can't believe. We have all learned to kill our dreams.">Lyrics T-W</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "-5 dB
+	-8 dB
+	-8 dB again
+	-5 dB again
+	-6 dB
+	-8 dB yet again
+	-6 dB again
+	-7 dB
+	-5 dB yet again
+	-7 dB again
+	-8 dB another time">Decibels A-C</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "-7 dB
+	-5 dB
+	-7 dB again
+	-6 dB
+	-5 dB again
+	-6 dB again
+	-7 dB yet again
+	-5 dB yet again
+	-6 dB yet again
+	-6 dB another time
+	-5 dB another time">Decibels C-F</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "-7 dB
+	-9 dB
+	-5 dB
+	-8 dB
+	-7 dB again
+	-4 dB
+	-9 dB again
+	-6 dB
+	-4 dB again
+	-6 dB again
+	-7 dB yet again">Decibels F-H</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "-4 dB
+	-8 dB
+	-5 dB
+	-5 dB again
+	-12 dB
+	-6 dB
+	-7 dB
+	-6 dB again
+	-10 dB
+	-6 dB yet again
+	-5 dB yet again">Decibels J-M</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "-7 dB
+	-7 dB again
+	-7 dB yet again
+	-7 dB another time
+	-4 dB
+	-10 dB
+	-6 dB
+	-5 dB
+	-8 dB
+	-7 dB this time
+	-5 dB again">Decibels M-N</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "-4 dB
+	-8 dB
+	-7 dB
+	-6 dB
+	-6 dB again
+	-9 dB
+	-7 dB again
+	-6 dB yet again
+	-5 dB
+	-5 dB again
+	-6 dB another time">Decibels O-R</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "-5 dB
+	-6 dB
+	-6 dB again
+	-5 dB again
+	-5 dB yet again
+	-8 dB
+	-6 dB yet again
+	-6 dB another time
+	-5 dB another time
+	-8 dB again
+	-5 dB this time">Decibels R-T</input><br>
+    	<input type="radio" name="myradio" 
+	value=
+       "-4 dB
+	-9 dB
+	-6 dB
+	-5 dB
+	-7 dB
+	-7 dB again
+	-7 dB yet again
+	-8 dB
+	-6 dB again
+	-14 dB
+	-4 dB again">Decibels T-W</input><br>
+</p>
+</td>
+<td>
+<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/the-ultimate-skeleton-clique-playlist/pl.u-jV89boLudMjZ24o"></iframe>
+</td>
+</tr>
+<textarea id="mytextarea" cols="11" rows="11"></textarea>
+</table>
+</body>
+</html>
